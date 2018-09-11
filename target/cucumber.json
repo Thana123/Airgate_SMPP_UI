@@ -1,0 +1,19 @@
+Feature: test
+
+  Scenario: Create connection in Air Gateway system       [90m# TestDefinition/test.feature:3[0m
+    [31mGiven [0m[31mlaunch Chrome browser[0m                           [90m# SelChromeDriver.getdriver()[0m
+      [31mjava.lang.IllegalStateException: The driver executable does not exist: C:\Users\HaridasT\Desktop\Automation\CuCumberAutomation\Airgate_SMPP\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$0(ChromeDriverService.java:1)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:148)
+	at Browser.SelChromeDriver.getdriver(SelChromeDriver.java:21)
+	at ✽.launch Chrome browser(TestDefinition/test.feature:4)
+[0m
+    [36mWhen [0m[36mOpen AG URL and login[0m                            [90m# Login.loginmavenir(WebDriver)[0m
+    [33mThen [0m[33mI verify that the page displays createconnection[0m [90m# null[0m
+    [33mAnd [0m[33mthe page displays AG createconnection button[0m      [90m# null[0m
