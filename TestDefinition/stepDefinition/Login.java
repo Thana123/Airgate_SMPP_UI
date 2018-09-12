@@ -9,9 +9,12 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 
 public class Login {
-	 @When ("Open \"(.*)\" and \"(.*)\" and \"(.*)\" and \"(.*)\" login$")
-	 // @When ("Open \"(.*)\" and \"(.*)\" and \"(.*)\" and \"(.*)\" login$")
- 	public static void loginmavenir(WebDriver driver, String url, String username, String password ){	 		
+	static WebDriver driver;
+	//@When ("Open driver and \"(.*)\" and \"(.*)\" and \"(.*)\" login$")
+	@When ("Open\"(.*)\" and \"(.*)\" and \"(.*)\" login$")
+	//When Open "www.google.com" and "" and "" login
+	 
+ 	public static void loginmavenir( String url, String username, String password ){	 		
 		 driver.get(url);
 		 driver.findElement(By.name("j_username")).sendKeys(username);
 		 driver.findElement(By.name("j_password")).sendKeys(password);

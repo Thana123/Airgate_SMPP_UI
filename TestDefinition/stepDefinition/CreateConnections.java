@@ -16,8 +16,8 @@ import excel.ReadExcel;
 
 public class CreateConnections {
 	private static Logger Log = Logger.getLogger(CreateConnections.class);
-	
-	public static void Createconnection(WebDriver driver ){
+	static WebDriver driver ;
+	public static void Createconnection( ){
 		Properties.PropertiesFile prop = new Properties.PropertiesFile();
 		//String filepath = prop.GeneralProperties("excelfilepath");
 		String filepath = "AG_DataSheet.xlsx";
