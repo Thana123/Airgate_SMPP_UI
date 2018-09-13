@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="TestDefinition"/>
-	<classpathentry kind="src" path="TestGeneration"/>
 	<classpathentry kind="src" path="TestExecuter"/>
 	<classpathentry kind="src" path="TestAdapter"/>
+	<classpathentry kind="src" path="Resources"/>
 	<classpathentry kind="lib" path="C:/Users/HaridasT/Desktop/New folder/Cucumber/Latest Cucmber/cucumber-core-2.0.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HaridasT/Desktop/New folder/Cucumber/Latest Cucmber/cucumber-html-0.2.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HaridasT/Desktop/New folder/Cucumber/Latest Cucmber/cucumber-java-2.0.1.jar"/>
@@ -24,5 +23,6 @@
 	<classpathentry kind="lib" path="C:/Users/HaridasT/Desktop/New folder/JMeter plugin/Jars/xmlbeans.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HaridasT/Downloads/mysql-connector-java-8.0.12/mysql-connector-java-8.0.12/mysql-connector-java-8.0.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HaridasT/Downloads/selenium-server-standalone-3.14.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AirGateUI"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

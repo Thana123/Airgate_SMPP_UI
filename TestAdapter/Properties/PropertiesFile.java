@@ -12,7 +12,7 @@ public class PropertiesFile {
 		String Values = null;
 		try {
 			Properties property=new Properties();
-			property.load(new FileInputStream("Properties/Genconf.properties"));
+			property.load(new FileInputStream("Resources/GeneralConf.properties"));
 			Values = property.getProperty(PrValue);
 			Log.info("Properties file is loaded to get : " +PrValue + " is " + Values);
 		} catch (FileNotFoundException e) {
